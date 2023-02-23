@@ -1,5 +1,3 @@
-/*____________________________________________|  Normalize Styles  |____________________________________________*/
-
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -12,22 +10,14 @@ a:link, a:visited, a:active {
     // color: var(--main-color);
 }
 
-/* Avoid Overflow - Responsive Menu */
-#root {
-    position: relative;
-    overflow: hidden;
-}
-
 body {
     width: 100%;
-    color: var(--text-color);
+    color: $text-color;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-    background-color: var(--body-color);
-    transition: $transition-global;
 
     &::placeholder {
-        color: var(--light-text-color);
+        color: palegreen;
     }
 
     &::-webkit-scrollbar {
@@ -37,11 +27,11 @@ body {
 
     &::-webkit-scrollbar-thumb {
         border-radius: .5em;
-        background-color: var(--scroll-bar);
+        background-color: $yellow-color;
     }
 
     &::-webkit-scrollbar-track {
-        background-color: var(--body-color);
+        background-color: $title-color;
     }
 
     &::-webkit-scrollbar-button {
@@ -50,21 +40,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--text-color);
+    color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-
-a {
-    color: var(--main-color);
-}
-
-svg {
-    color: var(--text-color);
-}
-
-input, textarea, button {
-    background-color: transparent;
-    /* transition: all linear .5s; */
-}
-

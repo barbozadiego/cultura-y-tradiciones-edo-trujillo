@@ -1,40 +1,18 @@
-:root {
-  --main-color        : #00B4D8;
-  --title-color       : #2A3B47;
-  --text-color        : #697477;
-  --light-text-color  : #A0A7AC;
-  --border-color      : #EFF3F5;
-  --container-color   : #FFFFFF;
-  --body-color        : #FBFBFE;
+  $text-color        : #697477;
+  $light-text-color  : #A0A7AC;
+  $border-color      : #EFF3F5;
+  $container-color   : #FFFFFF;
+  
 
-  --opacity-color     : rgba(0,0,0,.15);
-  --opacity-banner    : rgba(0,0,0,.7);
+  $red-color     : #c11432;
+  $blue-color    : #009ada;
+  $green-color   : #66a64f;
+  $yellow-color  : #fdd10a;
 
-  --transition-bar    : color .1s, background-color .2s ease-in-out;
-  --skills-bar-length : 0%;
+  $black-color   : #070707;
+  $white-color    : #FBFBFE;
+  $title-color   : #2A3B47;
 
-  --scroll-bar        : #00B4D8;
-
-}
-
-body.dark {
-  --main-color       : #00B4D8;
-  --title-color      : #EFF3F5;
-  --text-color       : #C8CDD0;
-  --light-text-color : #A0A7AC;
-  --border-color     : #2A3B47;
-  --container-color  : #212E36;
-  --body-color       : #192229;
-
-  --opacity-color    : rgba(255,255,255,.1);
-  --opacity-banner   : rgba(255,255,255,.7);
-
-  --scroll-bar       : white;
-}
-
-
-$path: '/src/assets/images/banners/';
-$transition-global: all linear .6s;
 
 
 $breakpoints: (

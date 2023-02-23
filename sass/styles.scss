@@ -1,5 +1,17 @@
 @import './abstracts/mixins';
 @import './abstracts/variables';
 
+/* ____________________| normalize-styles |____________________ */
 @import './base/reset';
+
+/* ____________________| fonts |____________________ */
 @import './base/typography';
+
+/* ____________________| header |____________________ */
+@import './layout/header';
+
+/* ____________________| main-menu |____________________ */
+@import './layout/main-menu';
+
+/* ____________________| footer |____________________ */
+@import './layout/footer';

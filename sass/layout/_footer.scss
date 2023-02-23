@@ -1,0 +1,17 @@
+footer {
+    padding: 3em;
+    background-color: $blue-color;
+
+    p {
+        text-align: center;
+        color: $white-color;
+    }
+
+    a {
+        color: $white-color;
+        &:hover {
+            color: $yellow-color;
+        }
+    }
+
+}
