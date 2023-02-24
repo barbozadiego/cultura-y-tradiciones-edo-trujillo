@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   background-color: #009ada;
   padding: 5em;
+  background-image: url(/images/bg.webp);
 }
 header h1 {
   color: #FBFBFE;
@@ -69,11 +70,22 @@ header h1 {
 }
 
 .main-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
 }
 
 .container-info {
-  background-color: powderblue;
+  background-color: #FBFBFE;
+  padding: 5em;
+}
+.container-info h2 {
+  margin-bottom: 2em;
+}
+.container-info p {
+  line-height: 1.5em;
+}
+.container-info p:not(:last-child) {
+  margin-bottom: 1em;
 }
 
 /* ____________________| main-menu |____________________ */

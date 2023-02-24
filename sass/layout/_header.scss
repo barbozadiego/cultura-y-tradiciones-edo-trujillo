@@ -1,6 +1,12 @@
 header {
     background-color: $blue-color;
     padding: 5em;
+    // height: 15em;
+
+    background-image: url(/images/bg.webp);
+    // background-repeat: no-repeat;
+    // background-size: 100%;
+    // background-position: 50% 50%;
     
     h1 {
         color: $white-color;
@@ -11,14 +17,28 @@ header {
 
 
 .main-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
 }
 
 
 
 
 .container-info {
-    background-color: powderblue;
+    background-color: $white-color;
+    padding: 5em;
+
+    h2 {
+        margin-bottom: 2em;
+    }
+
+    p {
+        line-height: 1.5em;
+    }
+
+    p:not(:last-child) {
+        margin-bottom: 1em;
+    }
 }
 
 
